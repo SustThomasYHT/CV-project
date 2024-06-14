@@ -5,7 +5,10 @@
 pip install -r requirements.txt
 ```
 
-之后在video文件夹放入想要分析的羽毛球比赛视频
+创建文件夹ckpts，将下载好的模型放入其中
+模型请联系作者获取
+
+创建文件夹video，放入想要分析的羽毛球比赛视频
 
 在thomas_predict.py中修改视频名称和选择xgboost模型
 
